@@ -66,4 +66,4 @@ experiments:
   estimator_notebook_pkl:
     deps: []
     params: {}
-    script: 'basic_ipynb'
+    script: 'basic.ipynb'
