@@ -1,0 +1,69 @@
+id_project: fef987a1-5133-4b71-9229-3ea620e69593
+name: test
+description: test
+datasets:
+  iris_csv:
+    shuffle: false
+    subsample: 150
+    split:
+      train: 0.8
+      test: 0.1
+      val: 0.1
+      subsample: 0
+      shuffle: false
+    inputs:
+      - label: sepal.length
+        name: sepal.length
+        description: sepal.length
+        type: numerical
+        unit: sepal.length
+        isOutput: false
+        range:
+          - 0
+          - 30
+      - label: sepal.width
+        name: sepal.width
+        description: sepal.width
+        type: numerical
+        unit: sepal.width
+        isOutput: false
+        range:
+          - 0
+          - 30
+      - label: petal.length
+        name: petal.length
+        description: petal.length
+        type: numerical
+        unit: petal.length
+        isOutput: false
+        range:
+          - 0
+          - 30
+      - label: petal.width
+        name: petal.width
+        description: petal.width
+        type: numerical
+        unit: petal.width
+        isOutput: false
+        range:
+          - 0
+          - 30
+    outputs:
+      - label: variety
+        name: variety
+        description: variety
+        type: classification
+        unit: variety
+        isOutput: true
+        classes:
+          - setosa
+          - virginica
+          - pepito
+    uri: data/iris.csv
+    type: csv
+    version: ''
+experiments:
+  estimator_notebook_pkl:
+    deps: []
+    params: {}
+    script: estimator_notebook.pkl
