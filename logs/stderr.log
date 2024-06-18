@@ -1,0 +1,2 @@
+/home/aulafor/git_aitana/test_aitana/.venv/lib/python3.10/site-packages/papermill/iorw.py:149: UserWarning: the file is not specified with any extension : -
+  warnings.warn(f"the file is not specified with any extension : {os.path.basename(path)}")

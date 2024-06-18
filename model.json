@@ -1,0 +1,74 @@
+{
+    "idProject": "fef987a1-5133-4b71-9229-3ea620e69593",
+    "title": "Basic SVM model",
+    "version": "5e95edd89147def7a823a74afc23b7ab_basic_svm_model",
+    "releasedate": "18/06/2024 11:40:55",
+    "input": [
+        {
+            "label": "sepal.length",
+            "name": "sepal.length",
+            "description": "sepal.length",
+            "type": "numerical",
+            "unit": "sepal.length",
+            "isOutput": false,
+            "range": [
+                0,
+                30
+            ]
+        },
+        {
+            "label": "sepal.width",
+            "name": "sepal.width",
+            "description": "sepal.width",
+            "type": "numerical",
+            "unit": "sepal.width",
+            "isOutput": false,
+            "range": [
+                0,
+                30
+            ]
+        },
+        {
+            "label": "petal.length",
+            "name": "petal.length",
+            "description": "petal.length",
+            "type": "numerical",
+            "unit": "petal.length",
+            "isOutput": false,
+            "range": [
+                0,
+                30
+            ]
+        },
+        {
+            "label": "petal.width",
+            "name": "petal.width",
+            "description": "petal.width",
+            "type": "numerical",
+            "unit": "petal.width",
+            "isOutput": false,
+            "range": [
+                0,
+                30
+            ]
+        }
+    ],
+    "output": [
+        {
+            "label": "variety",
+            "name": "variety",
+            "description": "variety",
+            "type": "classification",
+            "unit": "variety",
+            "isOutput": true,
+            "classes": [
+                "setosa",
+                "virginica",
+                "pepito"
+            ]
+        }
+    ],
+    "git_commit": "2ebbc1fe3f08366ed8af0aa509b05eb740080fc0",
+    "src": "./",
+    "model_pkl": "storage/estimator_notebook.pkl"
+}
