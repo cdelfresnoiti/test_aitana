@@ -66,4 +66,3 @@ experiments:
   estimator_notebook_pkl:
     deps: []
     params: {}
-    script: estimator_notebook.pkl
